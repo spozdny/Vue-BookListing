@@ -15,12 +15,12 @@
     data(){
       return{
         title: "All Books",
-        books: [
-          {title: 'Of Mice And Men', author: "John Steinbeck"},
-          {title: 'War And Peace', author: "Leo Tolstoy"},
-          {title: 'Crime And Punishment', author: "Fyodor Dostoyevsky"},
-
-        ]
+        books:
+          [
+            {title: 'Self-Reliance', author: 'Ralph Waldo Emerson'},
+            {title: 'American Gods', author: 'Neil Gaiman'},
+            {title: 'Amusing Ourselves to Death', author: 'Neil Postman'},
+          ]
       }
     }
   };
